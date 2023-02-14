@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://gongguowei.com/',
+  url: 'https://guowei-gong.github.io',
   lang: 'zh-CN',
   title: '1204 CORES',
   author: {
