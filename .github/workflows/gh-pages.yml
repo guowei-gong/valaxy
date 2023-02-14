@@ -29,6 +29,12 @@ jobs:
 
       - name: 🌌 Build Valaxy Blog
         run: npm run build
+        
+      - name: 🚣🏻 Build Valaxy Ssg
+        run: npm run build:ssg
+      
+      - name: 🏃🏻‍♀️ Build Valaxy Rss
+        run: npm run rss
 
       - name: 🪤 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
